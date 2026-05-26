@@ -1,0 +1,44 @@
+======================================================================
+CONCLUSIONES DEL PROCESO DE AUTOMATIZACIÓN
+======================================================================
+
+1. CAPA E2E (Playwright + Serenity/JS)
+----------------------------------------------------------------------
+* Estabilidad del Entorno: El desarrollo de la suite para la plataforma 
+  SauceDemo se consolidó de manera limpia. Gracias a la combinación de 
+  las esperas automáticas (auto-waiting) de Playwright y la estructura 
+  robusta del patrón Screenplay, las tareas y aserciones no presentaron 
+  ningún tipo de inestabilidad ("Flaky Tests").
+  
+* Eficiencia en el Diseño: El uso de la herramienta 'npx playwright codegen' 
+  fue altamente efectivo para agilizar el mapeo inicial de los elementos 
+  de la interfaz, permitiendo estructurar los localizadores más estables.
+  
+* Hallazgos: No se detectaron fallas o anomalías (sin hallazgos de momento) 
+  en los flujos automatizados de la interfaz web.
+
+
+
+----------------------------------------------------------------------
+2. CAPA DE API (Karate Framework - Swagger PetStore)
+----------------------------------------------------------------------
+* Análisis Crítico de Negocio (Posible Bug): 
+  Quitando la obviedad de que Swagger PetStore es un entorno público de 
+  pruebas, si evaluamos este comportamiento bajo un contexto empresarial 
+  real, existe una vulnerabilidad lógica/excepción de negocio no controlada: 
+  El endpoint 'POST /pet' permite registrar una mascota con un ID que ya 
+  existe en la base de datos con los mismos datos de forma idéntica, 
+  sobrescribiendo el recurso de manera silenciosa en lugar de retornar un 
+  error de conflicto (ej. 409 Conflict) o una excepción que indique 
+  "La mascota ya existe".
+
+* Comportamiento del Flujo: A pesar del hallazgo anterior, el diseño de 
+  la API es consistente en su operación técnica, permitiendo que los 
+  demás escenarios (Consultar por ID, Actualizar con PUT y Filtrar por 
+  estatus) se ejecuten y encadenen correctamente de punta a punta.
+
+* Mantenibilidad del Framework: La arquitectura del proyecto se diseñó 
+  aplicando las mejores prácticas, aislando los escenarios para cumplir 
+  con la independencia de las pruebas y separando los datos de entrada 
+  (Payloads JSON externos) de la lógica del archivo de pruebas (.feature).
+======================================================================
