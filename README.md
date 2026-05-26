@@ -41,7 +41,37 @@ Para ver el reporte puedes ejecutar
 ```
 
 O CTRL + Clic directamente cuando salga este mensaje por consola lo cual abre el reporte automaticamente
+
+
 <img width="940" height="410" alt="image" src="https://github.com/user-attachments/assets/a6199a64-35e7-4729-b237-46886a14d2ad" />
+
+
+==============================================================================================================================================================================================================
+
+#  API Testing Suite - Swagger PetStore
+
+Este módulo contiene la automatización de pruebas para los servicios REST de **PetStore**, desarrollada con **Karate Framework**. Se enfoca en validar el ciclo de vida completo de un recurso (Mascota) aplicando aislamiento de escenarios y manejo dinámico de datos.
+
+---
+
+## 🛠️ Tecnologías y Prácticas Aplicadas
+
+* **Karate Framework (v1.4.1):** Automatización BDD (Behavior Driven Development) nativa para APIs.
+* **Separación de Payloads (Data-Driven):** Los cuerpos de las peticiones JSON se gestionan en archivos externos (`.json`) independientes de la lógica del test (`.feature`).
+* **Manejo Dinámico de IDs:** Se implementaron marcas de tiempo para evitar colisiones de datos al ejecutar las pruebas en este entorno público.
+
+---
+
+## 🏗️ Cobertura de Pruebas
+
+El script `petstore.feature` interactúa directamente con los EndPoints, cubriendo el siguiente flujo:
+
+1. **Añadir Mascota (`POST /pet`)
+2. **Consultar por ID (`GET /pet/{petId}`)
+3. **Actualizar Mascota (`PUT /pet`)
+4. **Consultar por Estatus (`GET /pet/findByStatus`)
+
+---
 
 
 
