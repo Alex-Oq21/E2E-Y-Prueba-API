@@ -19,7 +19,7 @@ Esta solución automatiza los flujos de la plataforma **SauceDemo**. Está const
 ### ⚠️ Nota de Ejecución (Importante)
 Por compatibilidad de scripts y entorno, se recomienda **no utilizar PowerShell** para la ejecución de comandos, ya que puede restringir la ejecución del framework. Utilice **Git Bash** como terminal dentro de Visual Studio Code.
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7d721fce-df71-4223-a1b3-f0ad963162c6" />
+
 
 
 ### Ejecución de las Pruebas E2E
