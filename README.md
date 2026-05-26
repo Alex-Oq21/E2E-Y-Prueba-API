@@ -1,4 +1,6 @@
-Se recomienda descargar cada proyecto por separado, Prueba E2E se desarrolló con Visual studio code y el proyecto Karate con IntelliJ IDE, se recomienda ejecutarlos en los mismos IDE donde se realizaron.
+# Se recomienda descargar cada proyecto por separado, Prueba E2E se desarrolló con Visual studio code y el proyecto Karate con IntelliJ IDE, se recomienda ejecutarlos en los mismos IDE donde se realizaron.
+
+---
 
 # 🧪 Suite de Pruebas: E2E & API Testing
 
