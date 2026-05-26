@@ -56,7 +56,7 @@ Este módulo contiene la automatización de pruebas para los servicios REST de *
 
 ## 🛠️ Tecnologías y Prácticas Aplicadas
 
-* **Karate Framework (v1.4.1):** Automatización BDD (Behavior Driven Development) nativa para APIs.
+* **Karate Framework (v1.5.0):** Automatización BDD (Behavior Driven Development) nativa para APIs.
 * **Separación de Payloads (Data-Driven):** Los cuerpos de las peticiones JSON se gestionan en archivos externos (`.json`) independientes de la lógica del test (`.feature`).
 * **Manejo Dinámico de IDs:** Se implementaron marcas de tiempo para evitar colisiones de datos al ejecutar las pruebas en este entorno público.
 
@@ -72,6 +72,23 @@ El script `petstore.feature` interactúa directamente con los EndPoints, cubrien
 4. **Consultar por Estatus (`GET /pet/findByStatus`)
 
 ---
+Para este proyecto, la creación fue por medio del comando: mvn archetype:generate -DarchetypeGroupId=io.karatelabs -DarchetypeArtifactId=karate-archetype -DarchetypeVersion=1.5.0 -DgroupId=com.petstore -DartifactId=petstore
+
+Para su ejecución solo es usar el runner, no es necesario usar comandos de ejecución con mvn
+
+<img width="1878" height="1008" alt="image" src="https://github.com/user-attachments/assets/184164ad-03a2-493c-9838-5089afd416db" />
+
+
+Al ejecutarlo por consola sale los resultados, pero al final puedes ver la url al reporte
+
+<img width="1636" height="462" alt="image" src="https://github.com/user-attachments/assets/e0391981-647d-44f5-9f11-433ef364e518" />
+
+Una vez abierto puedes ver el resultado de cada escenario con su response para verificar la respuesta
+
+<img width="1900" height="943" alt="image" src="https://github.com/user-attachments/assets/18e5ad55-8309-48df-9ae5-6b3c20d4ecb5" />
+
+
+
 
 
 
