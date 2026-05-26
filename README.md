@@ -35,6 +35,15 @@ Donde podrás ver un paso a paso y una captura del fin de la prueba.
 
 <img width="1875" height="943" alt="image" src="https://github.com/user-attachments/assets/895d753a-d132-4dce-998c-8e0c54cedd55" />
 
+Para ver el reporte puedes ejecutar
+```bash
+ npx playwright show-report
+```
+
+O CTRL + Clic directamente cuando salga este mensaje por consola lo cual abre el reporte automaticamente
+<img width="940" height="410" alt="image" src="https://github.com/user-attachments/assets/6fe5fcf5-8e75-49cc-830b-cab7914ffd7a" />
+
+
 
 
 
