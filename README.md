@@ -19,6 +19,13 @@ Esta solución automatiza los flujos de la plataforma **SauceDemo**. Está const
 ### ⚠️ Nota de Ejecución (Importante)
 Por compatibilidad de scripts y entorno, se recomienda **no utilizar PowerShell** para la ejecución de comandos, ya que puede restringir la ejecución del framework. Utilice **Git Bash** como terminal dentro de Visual Studio Code.
 
+Paso 1: Damos click en terminal en la parte superior del IDE
+
+Paso 2: Una vez abre la terminal en la parte derecha encontraremos un simbolo + y una flecha hacia abajo, damos click en la flecha hacia abajo.
+
+Paso 3: Una vez damos click en la felcha hacia abajo, se despliegan varias opciones, damos click  en Git Bash
+
+<img width="1503" height="814" alt="image" src="https://github.com/user-attachments/assets/5ed293db-e699-4b46-b082-81fa3f68d223" />
 
 
 
