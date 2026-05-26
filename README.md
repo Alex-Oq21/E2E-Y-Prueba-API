@@ -41,7 +41,8 @@ Para ver el reporte puedes ejecutar
 ```
 
 O CTRL + Clic directamente cuando salga este mensaje por consola lo cual abre el reporte automaticamente
-<img width="940" height="410" alt="image" src="https://github.com/user-attachments/assets/6fe5fcf5-8e75-49cc-830b-cab7914ffd7a" />
+<img width="940" height="410" alt="image" src="https://github.com/user-attachments/assets/a6199a64-35e7-4729-b237-46886a14d2ad" />
+
 
 
 
