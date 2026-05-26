@@ -1,0 +1,20 @@
+{
+  "name": "playwright-screenplay-pro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@serenity-js/assertions": "^3.43.2",
+    "@serenity-js/core": "^3.43.2",
+    "@serenity-js/playwright": "^3.43.2",
+    "@serenity-js/playwright-test": "^3.43.2",
+    "@serenity-js/web": "^3.43.2",
+    "@types/node": "^25.9.1"
+  }
+}
