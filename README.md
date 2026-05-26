@@ -1,3 +1,5 @@
+Se recomienda descargar cada proyecto por separado, Prueba E2E se desarrolló con Visual studio code y el proyecto Karate con IntelliJ IDE, se recomienda ejecutarlos en los mismos IDE donde se realizaron.
+
 # 🧪 Suite de Pruebas: E2E & API Testing
 
 Este repositorio contiene dos proyectos de pruebas automatizadas independientes: una suite de pruebas End-to-End (E2E) para la interfaz web y una suite de pruebas para servicios REST (API).
