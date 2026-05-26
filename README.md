@@ -20,7 +20,7 @@ Abra su terminal Git Bash en la raíz del proyecto E2E y ejecute el siguiente co
 
 ```bash
 npx playwright test saucedemo-screenplay.spec.ts --headed
-
+```
 
 Una vez ejecute podrá visualizar por unos segundos la pantalla de inventario donde podra ver que son 2 los elementos agregados como pedía la prueba.
 
