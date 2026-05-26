@@ -72,7 +72,6 @@ Este módulo contiene la automatización de pruebas para los servicios REST de *
 
 * **Karate Framework (v1.5.0):** Automatización BDD (Behavior Driven Development) nativa para APIs.
 * **Separación de Payloads (Data-Driven):** Los cuerpos de las peticiones JSON se gestionan en archivos externos (`.json`) independientes de la lógica del test (`.feature`).
-* **Manejo Dinámico de IDs:** Se implementaron marcas de tiempo para evitar colisiones de datos al ejecutar las pruebas en este entorno público.
 
 ---
 
